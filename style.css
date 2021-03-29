@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background-color:lightyellow;
+    padding-top:100px;
+}
+img{
+    border-radius:50%;
+    width:100px;
+}
+.menu{
+    list-style: none;
+    font-family:cursive;
+    position:absolute;
+    cursor:pointer;
+    z-index:10;
+    top:30px;
+    right:30px;
+}
+.link{
+    float:left;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right:5px; 
+}
+.link:hover{
+    background-color:lightcyan;
+}
+html{
+    scroll-behavior:smooth;
+}
+#app{
+    background-color:lightyellow;
+}
+#games{
+    background-color:lightyellow;
+}
+img{
+    transitions:transform.2s;
+}
+img:hover{
+    transform:scale(10);
+}
